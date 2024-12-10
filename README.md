@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <picture>
     <source srcset="public/images/logo.png"  
             media="(prefers-color-scheme: dark)">
@@ -56,3 +57,7 @@ This will start the application along with the mysql database using docker compo
 
 # License
 **[Creative Commons Attribution 4.0	cc-by-4.0](https://creativecommons.org/licenses/by/4.0/)**
+=======
+# kasir
+Proyek ini siap untuk Produksi. Tetapi gunakan kode dari cabang utama saja. Jika Anda menemukan bug atau memiliki saran, silakan buat Masalah.
+>>>>>>> 11324b2c5d34af8d1e50a9219333f9a9ce6b42cd
