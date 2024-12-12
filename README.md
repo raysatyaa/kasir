@@ -1,63 +1,51 @@
-<<<<<<< HEAD
 <picture>
-    <source srcset="public/images/logo.png"  
+
+<source srcset="public/images/logo.png"  
             media="(prefers-color-scheme: dark)">
-    <img src="public/images/logo-dark.png" alt="App Logo">
+<img src="public/images/logo-dark.png" alt="Logo Aplikasi">
 </picture>
 
-> **Important Note:** This Project is ready for Production. But use code from main branch only. If you find any bug or have any suggestion please create an Issue.
+> **Catatan Penting:** Proyek ini dibuat untuk menyelesaikan tugas akhir saya.
 
-# Local Installation
+# Instalasi Lokal
 
-- run `` git clone https://github.com/FahimAnzamDip/triangle-pos.git ``
-- run ``composer install `` 
-- run `` npm install ``
-- run ``npm run dev``
-- copy .env.example to .env
-- run `` php artisan key:generate ``
-- set up your database in the .env
-- run `` php artisan migrate --seed ``
-- run `` php artisan storage:link ``
-- run `` php artisan serve ``
-- then visit `` http://localhost:8000 or http://127.0.0.1:8000 ``.
+-   jalankan `git clone https://github.com/raysatyaa/kasir.git`
+-   jalankan `composer install `
+-   jalankan `npm install`
+-   jalankan `npm run dev`
+-   salin .env.example ke .env
+-   jalankan `php artisan key:generate`
+-   atur basis data Anda dalam .env
+-   jalankan `php artisan migrate --seed`
+-   jalankan `php artisan storage:link`
+-   jalankan `php artisan serve`
+-   kemudian kunjungi `http://localhost:8000 atau http://127.0.0.1:8000`.
 
-> **Important Note:** "Triangle POS" uses Laravel Snappy Package for PDFs. If you are using Linux then no configuration is needed. But in other Operating Systems please refer to [Laravel Snappy Documentation](https://github.com/barryvdh/laravel-snappy).
+# Akun Super Admin
 
-# Docker Installation
-
-This will start the application along with the mysql database using docker compose. Note that the `DB_HOST` variable must be the mysql docker container name, in this case `db`.
-
-- run `` docker build -t triangle-pos . `` 
-- run `` docker compose up ``
-- then visit `` http://localhost:8000 or http://127.0.0.1:8000 ``.
-
-# Admin Credentials
 > Email: super.admin@test.com || Password: 12345678
 
-## Demo
-![Triangle POS](public/images/screenshot.jpg)
-**Live Demo:** will update soon
+# Tampilan Demo
 
-## Triangle POS Features
+<picture>
+<source srcset="public/images/logo.png"  
+            media="(prefers-color-scheme: dark)">
+<img src="public/images/demo.png" alt="Logo Aplikasi">
+</picture>
 
-- **Products Management & Barcode Printing**
-- **Stock Management**
-- **Make Quotation & Send Via Email**
-- **Purchase Management**
-- **Sale Management**
-- **Purchase & Sale Return Management**
-- **Expense Management**
-- **Customer & Supplier Management**
-- **User Management (Roles & Permissions)**
-- **Product Multiple Images**
-- **Multiple Currency Settings**
-- **Unit Settings**
-- **System Settings**
-- **Reports**
+## Fitur Yang Tersedia Pada Sistem Point Of Sale
 
-# License
-**[Creative Commons Attribution 4.0	cc-by-4.0](https://creativecommons.org/licenses/by/4.0/)**
-=======
-# kasir
-Proyek ini siap untuk Produksi. Tetapi gunakan kode dari cabang utama saja. Jika Anda menemukan bug atau memiliki saran, silakan buat Masalah.
->>>>>>> 11324b2c5d34af8d1e50a9219333f9a9ce6b42cd
+-   **Manajemen Produk & Pencetakan Barcode**
+-   **Manajemen Stok**
+-   **Membuat Penawaran & Mengirim Via Email**
+-   **Manajemen Pembelian**
+-   **Manajemen Penjualan**
+-   **Manajemen Pengembalian Pembelian & Penjualan**
+-   **Manajemen Pengeluaran**
+-   **Manajemen Pelanggan & Pemasok**
+-   **Manajemen Pengguna (Peran & Izin)**
+-   **Gambar Produk Multiple**
+-   **Pengaturan Mata Uang Multiple**
+-   **Pengaturan Unit**
+-   **Pengaturan Sistem**
+-   **Laporan**
