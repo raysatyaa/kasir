@@ -28,7 +28,7 @@
 # Tampilan Demo
 
 <picture>
-<source srcset="public/images/logo.png"  
+<source srcset="public/images/demo.png"  
             media="(prefers-color-scheme: dark)">
 <img src="public/images/demo.png" alt="Logo Aplikasi">
 </picture>
